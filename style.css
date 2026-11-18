@@ -110,3 +110,25 @@ a:focus-visible {
   outline: 2px solid var(--orange-color);
   outline-offset: 4px;
 }
+
+
+/*LAYOUT SHARED*/
+
+main {
+    flex: 1;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding-block: 1.25rem;
+    font-family: var(--font-display);
+    font-size: 30px;
+    letter-spacing: 0.04em;
+    color: var(--orange-color);
+     
+}
+
+
