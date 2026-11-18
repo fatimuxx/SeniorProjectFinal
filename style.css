@@ -68,11 +68,10 @@ table {
 
 /* ROOT */
 :root {
-    --background-color: #9A3F4A;
+    --background-color: #3D1419;
     --orange-color: #BD6809;
+    --light-purple: #9A3F4A;
     --green-color: #2F4731;
-    --font-family: "Oswald", sans-serif;
-    --font-display: "Bebas Neue", sans-serif;
 
 }
 
@@ -81,10 +80,13 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--background-color);
-    font-family: var(--font-family);
+    font-family: "Oswald", sans-serif;
     margin: 0;
     min-height: 100vh;
 
+}
+p{
+    font-family: "Oswald", sans-serif;
 }
 
 ul{
@@ -129,6 +131,15 @@ main {
     letter-spacing: 0.04em;
     color: var(--orange-color);
      
+}
+
+.main-nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.main-nav a {
+    color: var(--orange-color);
 }
 
 
