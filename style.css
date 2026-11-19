@@ -85,10 +85,13 @@ body {
     min-height: 100vh;
 
 }
-p{
-    font-family: "Oswald", sans-serif;
+p,h2,h3{
+    color: var(--orange-color);
 }
-
+nav ul {
+    display: flex;
+    gap: 1rem;
+}
 ul{
     list-style: none;
     padding: 0;
@@ -97,6 +100,9 @@ ul{
 a{
     text-decoration: none;
     color: inherit;
+}
+.quote-button {
+    color: var(--green-color);
 }
 
 h1, h2, h3, p, ul{
@@ -114,7 +120,7 @@ a:focus-visible {
 }
 
 
-/*LAYOUT SHARED*/
+/*shared header*/
 
 main {
     flex: 1;
@@ -140,6 +146,23 @@ main {
 
 .main-nav a {
     color: var(--orange-color);
+}
+
+/*footer*/
+
+.main-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem 1rem;
+    padding-block: 1rem;
+    font-size: 16px;
+    color: var(--orange-color);
+}
+.main-footer ul {
+    display: flex;
+    gap: 1rem;
 }
 
 
