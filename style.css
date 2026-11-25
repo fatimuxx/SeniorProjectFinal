@@ -168,5 +168,13 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 40px;
+}
+.coverage-page__figure {
+    margin: 0;
+}
+.coverage-page__figure img {
+    width: 75%;
+    border-radius:75%;
+    height: auto;
+    display: block;
 }
