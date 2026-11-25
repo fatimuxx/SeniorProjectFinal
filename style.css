@@ -149,5 +149,24 @@ main {
     display: flex;
     gap: 1rem;
 }
+/*styles for auto,home,life*/
+.coverage-page {
+    padding-block: 3rem 4rem;
+}
+.coverage-title{
+    color: var(--orange-color);
+    font-size:45px;
+    text-align: center;
+    margin-bottom: 40px;
 
+}
+.accent {
+    color: var(--light-purple);
+}
 
+.coverage-page__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+}
